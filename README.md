@@ -26,19 +26,25 @@ By breaking down source code into tokens, the lexical analyzer provides an essen
 **PROGRAM FLOW EXPLANATION:**
 **1. Reading Input**
 -The program takes an input source code file (input.txt) and reads it line by line.
+
 **2. Lexeme Extraction**
 -Each character is examined.
 -Sequences of letters/digits are grouped to form identifiers or keywords.
 -Special characters are checked against a list of operators.
+
 **3. Keyword Recognition**
 -Extracted words are compared with a predefined set of C keywords.
 -If a match is found, it is classified as a Keyword.
+
 **4. Identifier Recognition**
 -If a word does not match a keyword and follows valid naming rules, it is marked as an Identifier.
+
 **5. Operator Detection**
 -Single-character (+, -, *, =) and multi-character (==, >=, <=) operators are matched and identified.
+
 **6. Token Generation**
 -Each recognized lexeme is stored and printed with its token type.
+
 **7. Output**
 -The final output displays a structured list of tokens, showing which parts of the input code are keywords, operators, or identifiers.
 
