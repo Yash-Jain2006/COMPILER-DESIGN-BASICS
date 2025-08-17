@@ -56,11 +56,8 @@ By breaking down source code into tokens, the lexical analyzer provides an essen
 COMPILER-DESIGN-BASICS/
 
 │── lexical_analyzer.c     # Main program source code
-
 │── input.txt              # Sample input program
-
 │── output.txt             # Generated output with tokens
-
 │── README.md              # Project documentation
 
 
